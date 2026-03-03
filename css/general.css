@@ -1,0 +1,136 @@
+body {
+    background-color: #ffffcc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    height: 75px;
+    min-width: 700px;
+    max-width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1.5px;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+}
+
+input {
+    text-align: center;
+}
+
+.text_image_div {
+    height: 333px;
+    min-width: 600px;
+    max-width: 800px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.text_div {
+    text-align: left;
+    width: 400px;
+    margin: auto;
+}
+
+.image_div {
+    width: 400px;
+}
+
+.food_container {
+    height: 400px;
+    min-width: 600px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.food_box {
+    width: 350px;
+    height: 390px;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-items: center;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.food_desc {
+    width: 350px;
+    height: 104px;
+    background-color: #7d7365;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-top: 10px;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.access_div {
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #7d7365;
+    padding-top: 10px;
+    min-width: 310px;
+    max-width: 400px;
+    color: white;
+}
+
+.top_text_div {
+    height: 166px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+#logo {
+    height: 70px;
+}
+
+#buy {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #c6b373;
+    font-size: large;
+}
+
+#horizontal_div {
+    display: block;
+}
+
+#about_us_image {
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+#homepage_image {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}

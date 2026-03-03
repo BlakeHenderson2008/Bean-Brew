@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/general.css">
+    </head>
+
+    <header>
+        <nav>
+            <ul>
+                <li><img src="../assets/logo.png" alt="" id="logo"></li>
+                <li onclick="(window.location.href = '../index.html')">HOME</li>
+                <li><u>JOIN US</u></li>
+                <li>ABOUT US</li>
+                <li>SETTINGS</li>
+            </ul>
+        </nav>
+    </header><br>
+
+    <body>
+        <h2 class="heading">LOGIN</h2>
+        <div class="access_div">
+            <label for="username">USERNAME</label> <br>
+            <input type="text" name="username" placeholder="Enter Username"> <br><br>
+
+            <label for="password">PASSWORD</label> <br>
+            <input type="password" name="password" placeholder="Enter Password"> <br>
+
+            <span class="invalid_feedback">
+                <?php echo $login_error; ?>
+            </span>
+
+            <button class="login/register" type="submit">LOGIN</button>
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+        </div>
+
+        <script src="../javaScript/general.js"></script>
+    </body>
+</html>
